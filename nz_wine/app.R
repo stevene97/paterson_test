@@ -8,6 +8,8 @@
 #
 
 library(shiny)
+library(tidyverse)
+x <- read_rds('nz_wine/wine.rds')
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
